@@ -1,0 +1,22 @@
+{
+    "extends": "standard",
+
+    "env": {
+      "es6": false,
+      "node": false
+    },
+
+    "globals": {
+      "document": false,
+      "window": false,
+      "Game": false,
+      "Player": false,
+      "Enemy": false
+    },
+
+    "rules": {
+      "no-unused-vars": [0],
+      "no-console": [0],
+      "semi": ["error", "always"]
+    }
+}
